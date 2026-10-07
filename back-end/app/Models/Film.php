@@ -7,7 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class Film extends Model
 {
     protected $table = 'films';
-    protected $fillable = ['title', 'description', 'image', 'category', 'release_date', 'hours'];
+    protected $fillable = ['title', 'description', 'image', 
+    'category', 'release_date', 'hours', 'language', 'director'];
 
 
     public function showtimes(){
@@ -18,5 +19,13 @@ class Film extends Model
         return [
             'release_date' => 'date',
         ];
+    }
+
+    public function ratings(){
+        return $this->hasMany(Rating::class);
+    }
+
+    public function actors(){
+        return $this->belongsToMany(Actor::class);
     }
 }

@@ -1,8 +1,11 @@
 <?php
 
+use App\Http\Controllers\ActorController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\FilmsController;
+use App\Http\Controllers\LocationController;
 use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\RatingController;
 use App\Http\Controllers\ReservationController;
 use App\Http\Controllers\ReservationSeatController;
 use App\Http\Controllers\ReservationSnackController;
@@ -54,7 +57,20 @@ Route::middleware(['auth:sanctum', 'admin'])->prefix('admin')->group(function ()
     Route::delete('/reservation-snacks/{id}', [ReservationSnackController::class, 'destroy']);
 
     Route::put('/tickets/{id}', [TicketController::class, 'update']);
+
+    Route::post('/actors', [ActorController::class, 'store']);
+    Route::put('/actors/{id}', [ActorController::class, 'update']);
+    Route::delete('/actors/{id}', [ActorController::class, 'destroy']);
+
+    Route::post('/locations', [LocationController::class, 'store']);
+    Route::put('/location/{id}', [LocationController::class, 'update']);
+    Route::delete('/locations/{id}', [LocationController::class, 'destroy']);
+
 });
+
+// ---------------------------------------------------------------
+
+Route::get('/actors', [ActorController::class, 'index']);
 
 Route::get('/films', [FilmsController::class, 'index']);
 Route::get('/films/{id}', [FilmsController::class, 'show']);
@@ -71,6 +87,11 @@ Route::get('/showtimes/{id}', [ShowtimeController::class, 'show']);
 Route::get('/snacks', [SnackController::class, 'index']);
 Route::get('/snacks/{id}', [SnackController::class, 'show']);
 
+Route::get('/locations', [LocationController::class, 'index']);
+
+Route::get('/ratings', [RatingController::class, 'index']);
+
+// -----------------------------------------------------------
 
 Route::middleware('auth:sanctum')->group(function () {
 
@@ -93,4 +114,7 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/tickets', [TicketController::class, 'index']);
     Route::get('/tickets/{id}', [TicketController::class, 'show']);
     Route::post('/tickets', [TicketController::class, 'store']);
+
+    Route::post('/ratings', [RatingController::class, 'store']);
+    
 });
