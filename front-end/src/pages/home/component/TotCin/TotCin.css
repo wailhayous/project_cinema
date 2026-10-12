@@ -1,0 +1,8 @@
+.tot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+    background-color: #111118;
+    color: white;
+}

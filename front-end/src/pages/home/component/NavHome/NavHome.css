@@ -96,3 +96,9 @@
 .logout:hover{
     cursor: pointer;
 }
+.navRight a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+

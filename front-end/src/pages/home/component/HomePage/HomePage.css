@@ -1,0 +1,111 @@
+.imagbackg {
+    width: 100%;
+    height: calc(100vh - 10vh);
+    margin-top: 10vh;
+    overflow: hidden;
+}
+
+.imagbackg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.text-image{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    color: white;
+    padding: 100px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+}
+.nas{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+.N{
+    background-color: red;
+    border-radius: 2px;
+    padding: 3px;
+    font-size: 12px;
+}
+.A{
+    background-color: gray;
+    padding: 3px;
+    font-size: 12px;
+    border: 0.5px solid white;
+    border-radius: 2px;
+}
+.S{
+    background-color: gray;
+    padding: 3px;
+    font-size: 12px;
+    border: 0.5px solid white;
+    border-radius: 2px;
+}
+.title{
+    font-size: 70px;
+    padding-top: 20px;
+}
+.paragra{
+    color: rgb(212, 211, 211);
+    padding-right: 26rem;
+    font-size: 22px;
+    padding-top: 12px;
+}
+.rat{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 25px;
+    color: rgb(206, 204, 204);
+    font-size: 21px;
+    align-items: center;
+}
+.bok{
+   padding-top: 30px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.bok button{
+    padding: 15px 25px;
+}
+.bok .btn1{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: 0.2s ease;
+}
+.bok .btn2{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: 0.2s ease;
+}
+.btn1:hover{
+    background-color: rgba(255, 0, 0, 0.669);
+    transition: 0.2s ease;
+}
+.btn2:hover{
+    color: red;
+    border: 1px solid red;
+    transition: 0.2s ease;
+}
+.ime{
+    width: 35%;
+    height: 50vh;
+    border: 2px solid rgba(255, 0, 0, 0.559);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.ime img{
+    border-radius: 5px;
+}

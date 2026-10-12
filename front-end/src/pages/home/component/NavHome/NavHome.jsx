@@ -25,8 +25,8 @@ export default function NavHome() {
       </div>
 
       <div className="navRight">
-        <div className="login">LOGIN</div>
-        <div className="register">REGISTER</div>
+        <NavLink to="/login" className="login"> LOGIN </NavLink>
+        <NavLink to="/register" className="register"> REGISTER </NavLink>
       </div>
 
       {/* <div className="profile">
