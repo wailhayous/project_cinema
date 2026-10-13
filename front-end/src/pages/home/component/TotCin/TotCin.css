@@ -5,4 +5,15 @@
     padding: 10px 60px;
     background-color: #111118;
     color: white;
+    border-block: 1px solid white;
+}
+.cinRoom,.totalSeat,.scring,.location{
+    text-align: center;
+}
+.cinRoom p,.totalSeat p,.scring p,.location p{
+    padding-top: 10px;
+    color: #8888a5;
+}
+.cinRoom h2,.totalSeat h2,.scring h2,.location h2{
+    padding-top: 10px;
 }
