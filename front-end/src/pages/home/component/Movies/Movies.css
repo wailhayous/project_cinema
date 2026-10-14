@@ -1,0 +1,123 @@
+.nowP{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+    background-color: black;
+    padding-top: 70px;
+}
+.noright{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+.viewAll{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: red;
+}
+.viewAll:hover{
+    cursor: pointer;
+}
+.NoBn{
+    background-color: #1a1a28;
+    padding: 5px;
+    border-radius: 5px;
+}
+.Nbtn1{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.Nbtn2{
+    background-color:  #1a1a28;
+    color: rgb(185, 184, 184);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.Nbtn1,.Nbtn2:hover{
+    cursor: pointer;
+}
+.card{
+    width: calc(25% - 12px); 
+    border: 1px solid red;
+     box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+    background-color: #111118;
+}
+.imMov img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+}
+.nj .mo1{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    color: white;
+    background-color: red;
+    padding: 5px 8px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.nj .mo2{
+    position: absolute;
+    bottom: 130px;
+    left: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+.sm{
+    color: rgb(207, 206, 206);
+}
+.tu{
+    display: flex;
+    gap: 7px;
+    margin-block: 5px;
+}
+.tu p{
+    border: 1px solid rgb(134, 134, 134)  ;
+    border-radius: 3px;
+    padding: 3px 6px;
+    font-size: 10px;
+    color: rgb(159, 156, 156);
+}
+.btM{
+    margin-top: 15px;
+    padding: 8px 10px;
+    width: 100%;
+    color: red;
+    background-color: #261018;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-block: 10px;
+}
+.btM:hover{
+    cursor: pointer;
+}
+.ko{
+    padding: 5px 9px;
+}
+.ko h3{
+    color: white;
+}
+.cards{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.card:hover{
+    cursor: pointer;
+}

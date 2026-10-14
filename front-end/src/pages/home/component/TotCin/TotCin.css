@@ -12,6 +12,7 @@
 }
 .cinRoom p,.totalSeat p,.scring p,.location p{
     padding-top: 10px;
+    padding-bottom: 10px;
     color: #8888a5;
 }
 .cinRoom h2,.totalSeat h2,.scring h2,.location h2{
