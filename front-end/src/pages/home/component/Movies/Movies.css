@@ -117,6 +117,8 @@
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+    padding-bottom: 50px;
+    border-bottom: 1px solid white;
 }
 .card:hover{
     cursor: pointer;

@@ -1,0 +1,85 @@
+.parent-our{
+    background-color: #111118;
+    padding: 10px 15px;
+}
+.ot h3{
+    padding: 50px 0px 19px 0px;
+    color: white;
+    font-size: 30px;
+}
+.ourcin{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+.ourleft{
+    width: 50%;
+}
+.ourleft img{
+    width: 95%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.ourleft p{
+    color: rgb(146, 146, 146);
+    padding-block: 20px;
+    font-size: 18px;
+}
+.ourright{
+    width: 50%;
+    margin-left: 10px;
+}
+.romac{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 5px;
+    margin: 10px;
+}
+.riu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.iconreg{
+    color: red;
+    background-color: rgba(255, 0, 0, 0.354);
+    padding: 10px;
+    border-radius: 2px;
+}
+.rows p{
+    color: rgb(165, 165, 165);
+}
+.ac{
+    color: rgb(0, 255, 0);
+    background-color: darkgreen;
+    padding: 3px 7px;
+    border-radius: 3px;
+}
+.opening{
+    color: white;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.082);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 0, 0, 0.475);
+    margin: 10px;
+}
+.opening h4{
+    color: red;
+    padding-block: 10px;
+}
+.os{
+    display: flex;
+    align-items: center;
+    gap: 25%;
+}
+.os p{
+    padding-block: 5px;
+}
+.tn{
+    color: rgb(183, 183, 183);
+}
