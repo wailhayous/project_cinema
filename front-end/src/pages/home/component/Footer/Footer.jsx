@@ -1,4 +1,5 @@
 import React from 'react'
+import './Footer.css'
 
 export default function Footer() {
     return (
@@ -6,9 +7,9 @@ export default function Footer() {
             <div className="footer">
                 <div className="fot1">
                     <div className="fot-p1">
-                        <h3>CINEMA ABINEDA</h3>
+                        <h3>CINEMA <span> ABINEDA</span></h3>
                         <p>Casablanca's premier cinema experience.
-                            5 state-of-the-art screens, IMAX technology,
+                            5 state-of-the-art screens, IMAX technology,<br/>
                             VIP lounges, and an unmatched selection of
                             films from Morocco and around the world.</p>
                     </div>
@@ -30,11 +31,14 @@ export default function Footer() {
                         <p>Fri–Sun: 11:00–01:00</p>
                     </div>
                 </div>
+                <hr />
                 <div className="fot-2">
                     <p>© 2026 Cinema Abineda. All rights reserved.</p>
-                    <button>Privacy Policy</button>
+                   <div className="botons-foter">
+                     <button>Privacy Policy</button>
                     <button>Terms of Service</button>
                     <button>Cookie Policy</button>
+                   </div>
                 </div>
             </div>
         </div>

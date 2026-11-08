@@ -1,0 +1,62 @@
+.fot1{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    /* padding: 15px 10px; */
+}
+.fot1 h5{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+.footer{
+    /* padding: 15px 10px; */
+    background-color: #0d0d15;
+}
+.fot-p1 h3{
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+.fot-p1 h3 span{
+    color: red;
+}
+p{
+    color: rgb(222, 220, 220);
+     /* margin-bottom: 30px; */
+}
+.fot-p2 p{
+    margin-block: 10px;
+}
+.fot-p3 p{
+    margin-block: 10px;
+}
+hr{
+    margin-inline: 15px;
+    margin-block: 10px;
+}
+.fot-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 45px 10px;
+    /* color: red; */
+}
+.fot-2 p{
+    color: rgb(163, 163, 163);
+}
+.fot-2 .botons-foter button{
+    color:rgb(163, 163, 163) ;
+    background-color:#0d0d15 ;
+    border: none;
+
+}
+.fot-2 button:hover{
+    cursor: pointer;
+}
+.fot-2 .botons-foter{
+    display: flex;
+    gap: 15px;
+}
